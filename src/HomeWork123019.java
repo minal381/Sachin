@@ -56,7 +56,7 @@ public class HomeWork123019 {
         } else {
             System.out.println(myName.toUpperCase());
         }
-        
+
         // 5. Create an array of 5 int values. Calculate the average of those 5 values. [pls don't use for-loop]
         //If you average of stored numbers greater than 25
         //	Display Array from index 0 to last
@@ -145,6 +145,9 @@ public class HomeWork123019 {
         else if (productname.equals("Apple")|| productname.equals("Orange"))
         {
             System.out.println("Aisle Two");
+        }
+        else {
+            System.out.println("Out of Stock");
         }
         }
     }
