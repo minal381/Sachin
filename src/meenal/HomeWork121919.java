@@ -31,6 +31,12 @@ public class HomeWork12192019 {
         int lengthOfArray = friendNames.length;
         System.out.println("Array friendNames length is:"+ lengthOfArray);
         // 4.2 Print name written on 3rd position
+        String name3 = friendNames[2];
+        System.out.println("Name written on 3rd position is"+" "+ name3);
+
+
+
+
 
         // 1. I am a good programmer.
 
