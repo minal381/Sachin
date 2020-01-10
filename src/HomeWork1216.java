@@ -28,11 +28,11 @@ public class HomeWork1216 {
 
 
         boolean gender = true;
-        System.out.printf("Is your gender female? " +gender);
+        System.out.println("Is your gender female? " +gender);
 
 
        char nameinitial= 'M';
-        System.out.println('\n' + "Nameinitial "+nameinitial);
+        System.out.println("Nameinitial "+nameinitial);
 
 
 

@@ -1,6 +1,6 @@
 package meenal;
 
-public class HomeWork12192019 {
+public class HomeWork121919 {
     public static void main(String[] args) {
 
         //3. Verify if "JOHN" is present at index 1
@@ -15,7 +15,13 @@ public class HomeWork12192019 {
         names[6]=  "Himani";
         boolean isEqual= names[1].equalsIgnoreCase("JOHN");
         System.out.println(isEqual);
+        String[] namesNew = {"Mohhamad", "John", "Ferdous", "Abul","Mareeha","Ruslan", "Himani"};
+        for (String nameNew1 : namesNew) {
+            boolean isJohn = nameNew1.equalsIgnoreCase("himani");
+           if(isJohn== true ) { System.out.println(nameNew1);}
 
+
+        }
 
       // 2. stotre your name in astring variable. Calculate length of your name without using string method.
         String myName = "Meenal";
@@ -33,6 +39,17 @@ public class HomeWork12192019 {
         // 4.2 Print name written on 3rd position
         String name3 = friendNames[2];
         System.out.println("Name written on 3rd position is"+" "+ name3);
+                //or
+        String [] fNames = {"Sachin", "Meenal","Avani","Mahi"};
+        for (int i =0; i<=fNames.length-1; i++)
+        {
+            if(fNames[i].length()< 4)
+            {
+                System.out.println(fNames[i]);
+            }
+
+        }
+
 
 
 

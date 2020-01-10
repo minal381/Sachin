@@ -8,7 +8,7 @@ public class HomeWork01022020 {
         // 15/20 -> You got a C (75%)
         // A 90-100, B 80-89, C 70-79, D 60-69, F 0-59
 
-        // couldn't use switch, can u please explain how to use /
+        // couldn't use switch, can u please explain how to use?
 
         Scanner yourScore = new Scanner(System.in);
         System.out.println("Enter your score");

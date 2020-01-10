@@ -11,23 +11,23 @@ public class HomeWork123019 {
         //Otherwise
         //	Display the remainder you get when divide number by 15
 
-        int number = 30;
-
-        if (number % 15 == 0) {
-            System.out.println("The number is divisible by 15");
-        } else if (number % 15 != 0) {
-            System.out.println("The remainder is" + " " + number % 15);
-        }
-
-        int number1 = 95;
-
-        if (number1 % 15 == 0) {
-            System.out.println("The number is divisible by 15");
-        } else {
-            System.out.println("The remainder is" + " " + number1 % 15);
-        }
-
-        // 1. Menu
+//        int number = 30;
+//
+//        if (number % 15 == 0) {
+//            System.out.println("The number is divisible by 15");
+//        } else(number % 15 != 0){
+//            System.out.println("The remainder is" + " " + number % 15);
+//        }
+//
+//        int number1 = 95;
+//
+//        if (number1 % 15 == 0) {
+//            System.out.println("The number is divisible by 15");
+//        } else {
+//            System.out.println("The remainder is" + " " + number1 % 15);
+//        }
+//
+//        // 1. Menu
         //  boolean isGuestOneVegan = true;
         //  boolean isGuesttwoVegan = true;
         //  Are both vegan? only offer up vegan dishes.
@@ -36,12 +36,15 @@ public class HomeWork123019 {
 
 
         boolean isGuestOneVegan = true;
-        boolean isGuesttwoVegan = false;
-        if (isGuestOneVegan == true && isGuesttwoVegan == true) {
+        boolean isGuesttwoVegan = true;
+        if (isGuestOneVegan && isGuesttwoVegan)
+        {
             System.out.println("Please serve Vegan Menu");
-        } else if (isGuestOneVegan == true || isGuesttwoVegan == true) {
+        } else if (isGuestOneVegan||isGuesttwoVegan)
+        {
             System.out.println("One guest is vegan, offer up vegan menu with Regular menu.");
-        } else {
+        } else
+            {
             System.out.println("Regular Menu");
         }
 
