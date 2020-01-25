@@ -1,5 +1,6 @@
 package Classwork_pkg;
 
+import java.math.MathContext;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -69,12 +70,39 @@ public class Test {
 //        userspeed=78(70-75->1point)
 //        userspeed=88(70-75->1point,75-80->1point,80-85->1point ; total 3 points)
 
-    int speedLimit = 70;
+   public static double trafficTicketingSystem(double currentSpeed) {
 
-//    int speed =70 ;
-//    int speedLimit = 70;
-//    int points ;
-//    if(speed > 70){ points=1;
+
+      // double currentSpeed = 88;
+
+       currentSpeed=Math.floor(currentSpeed);
+
+       //System.out.println(Math.floor(currentSpeed));
+       int speedLimit = 70;
+       double points = 0;
+
+
+       if (currentSpeed > 70)
+       {
+            points =  Math.floor((currentSpeed - speedLimit) / 5);
+           System.out.println(points);
+
+           if (points > 12)
+           {
+               System.out.println("You got "+ points + " on your license.");
+               System.out.println("You are driving at " + currentSpeed+" "+"mph.Your license is suspended.");
+
+            }
+           else
+
+               System.out.println("Points  " +points);
+       } else{
+           System.out.println("Great, You are driving in speed Limit");}
+
+
+       return points;
+   }
+
 
 
 
@@ -88,4 +116,8 @@ public class Test {
 
         int[] array ={1,3,5,4,6};
         missingNumber(array);
+
+        trafficTicketingSystem(104);
+        trafficTicketingSystem(178);
+
     }}
