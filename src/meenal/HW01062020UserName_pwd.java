@@ -10,8 +10,9 @@ public class HW01062020 {
 //                * if it reaches 5 times then system should be locked for 10 min
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Please enter your Username and Password");
+        System.out.println("Please enter your Username");
         String userName = scan.nextLine();
+        System.out.println("Please enter your Password");
         String password = scan.nextLine();
         String expectedUserName = "Meenal123";
         String expectedPassword = "Technosoft";
